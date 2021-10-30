@@ -17,3 +17,12 @@ https://github.com/controlm/automation-api-community-solutions/tree/master/3-inf
 
 ## To delete the agent from the Control-M server, run below:
 > sudo docker exec -it ctmag2 /home/ec2-user/decommission_controlm.sh
+
+
+### To further ahead, if you want to install an Application pack. 
+Run below command as part of the run_register_controlm script.
+Below command will install the Application pack on the Control-M agent running on docker.
+>ctm provision upgrade::install CTM920 clm-pun-v1pngr:748da1f7a339 AppPack 9.0.20.000
+
+Below command will deploy the AI job type on the control-m agent.
+>ctm deploy ai:jobtype CTM920 clm-pun-v1pngr:748da1f7a339 FWTEXT
