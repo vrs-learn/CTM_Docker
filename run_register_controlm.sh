@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #CTM_ENV="ctmdev"
-#CTM_SERVER="clm-aus-u1ks3d"
+#CTM_SERVER="clm-server-name"
 #CTM_HOSTGROUP="appgroup01"
 #CTM_AGENT_PORT=7006
 
